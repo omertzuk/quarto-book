@@ -69,7 +69,18 @@
     "href": "02-information-theory/index.html",
     "title": "6  Part 2: Information Theory",
     "section": "",
-    "text": "Information theory provides the mathematical framework for quantifying uncertainty and information.",
+    "text": "6.1 Introduction to Information Theory\nThe etymology of the word information comes from informare in latin, meaning - to give form. Let’s ponder on how can we measure information using the analogy to energy. Energy is an ancient concept that came from [[Aristotle]], who coined the term Ergon, coming from the Proto-Indo-European root _*werg_ that means “to do”, in the sense of to do work. So the important thing about energy is that we can measure it, and that you can measure the amount of energy in heat, or work (the physical concept of work), and many other forms of energy. The [[Bit]] is the unit of information, and it stands for - BInary digiT. The idea is that a bit is a measure of difference, between two possibilities: 0 and 1, True or False, Hot or Cold, etc.",
+    "crumbs": [
+      "Part 2: Information Theory",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Part 2: Information Theory</span>"
+    ]
+  },
+  {
+    "objectID": "02-information-theory/index.html#introduction-to-information-theory",
+    "href": "02-information-theory/index.html#introduction-to-information-theory",
+    "title": "6  Part 2: Information Theory",
+    "section": "",
+    "text": "“Information is a difference that makes a difference.” — Gregory Bateson",
     "crumbs": [
       "Part 2: Information Theory",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Part 2: Information Theory</span>"
@@ -80,7 +91,7 @@
     "href": "02-information-theory/the-bit.html",
     "title": "7  The Bit",
     "section": "",
-    "text": "The fundamental unit of information and its role in quantifying uncertainty.",
+    "text": "7.0.1 The Bit\nThe fundamental unit of information is the bit — the distinction between two equally probable possibilities: \\(0\\) or \\(1\\), yes or no, heads or tails. Any two-state physical system encodes exactly one bit: a spin-\\(\\frac{1}{2}\\) particle, a photon polarization, a transistor switch.\nA system with \\(n\\) bits has \\(N = 2^n\\) distinguishable states. Conversely, a system with \\(N\\) states encodes:\n\\[n = \\log_2 N \\text{ bits}\\]\nThis holds for non-integer values too: a three-state system encodes \\(\\log_2 3 \\approx 1.58\\) bits.\nA useful approximation: \\(2^{10} \\approx 10^3\\), so every 10 bits multiplies the state space by roughly \\(10^3\\).\n\n\n\n\\(n\\) (bits)\n\\(N\\) (states)\n\n\n\n\n1\n2\n\n\n10\n1,024\n\n\n300\n\\(\\approx 10^{90}\\)\n\n\n\n\nThe observable universe contains \\(\\sim 10^{90}\\) particles. So 300 bits suffice to label every particle in the universe. Human DNA, by contrast, encodes \\(\\sim 6 \\times 10^9\\) bits — far exceeding what is needed for labeling alone.\n\n\n\n\n7.0.2 Information is Physical\nEvery bit is realized by a physical system. This has a deep consequence: physical limits constrain how much information any region of space can contain. The maximum information capacity of the observable universe is:\n\\[N_{\\text{max}} \\sim 10^{120} \\text{ bits}\\]\nThis follows from quantum mechanics and is finite — large, but bounded.",
     "crumbs": [
       "Part 2: Information Theory",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Bit</span>"
@@ -124,7 +135,7 @@
     "href": "02-information-theory/entropy-thermodynamics.html",
     "title": "11  Entropy and Thermodynamics",
     "section": "",
-    "text": "The deep connection between information entropy and physical entropy.",
+    "text": "11.0.1 Entropy\nA physical system with \\(N\\) equally probable microstates has Boltzmann entropy:\n\\[S = k_B \\log N\\]\nwhere \\(k_B\\) is Boltzmann’s constant. Comparing with \\(n = \\log_2 N\\), entropy is directly proportional to the number of bits needed to specify the microstate — up to a choice of logarithm base and physical units.\n\\[S = k_B \\ln 2 \\cdot \\log_2 N = k_B \\ln 2 \\cdot n\\]\nEntropy = information needed to fully describe a system’s microstate.\nThe Second Law — entropy never decreases in an isolated system — is then a statement about information: the number of possible microstates consistent with macroscopic observations can only grow or stay constant.\n\n\n\n11.0.2 Shannon Entropy\nWhen microstates are not equally probable, the generalization is Shannon entropy:\n\\[H = -\\sum_i p_i \\log_2 p_i \\quad \\text{(bits)}\\]\nor equivalently in nats (using \\(\\ln\\)):\n\\[H = -\\sum_i p_i \\ln p_i \\quad \\text{(nats)}\\]\n\\(H\\) measures the average uncertainty about the outcome of a random variable \\(X \\sim \\{p_i\\}\\). Key properties:\n\n\\(H \\geq 0\\), with \\(H = 0\\) only when one outcome has probability 1\n\\(H\\) is maximized when all outcomes are equally probable: \\(H_{\\max} = \\log_2 N\\)\nFor a fair coin: \\(H = -\\frac{1}{2}\\log_2\\frac{1}{2} - \\frac{1}{2}\\log_2\\frac{1}{2} = 1\\) bit\n\nShannon entropy reduces to Boltzmann entropy for uniform distributions, confirming they measure the same underlying quantity.",
     "crumbs": [
       "Part 2: Information Theory",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Entropy and Thermodynamics</span>"

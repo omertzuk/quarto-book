@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="7&nbsp; The Bit – Learning Active Inference">
@@ -381,8 +410,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-bit" id="toc-the-bit" class="nav-link active" data-scroll-target="#the-bit"><span class="header-section-number">7.0.1</span> The Bit</a></li>
+  <li><a href="#information-is-physical" id="toc-information-is-physical" class="nav-link" data-scroll-target="#information-is-physical"><span class="header-section-number">7.0.2</span> Information is Physical</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -406,9 +442,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The fundamental unit of information and its role in quantifying uncertainty.</p>
+<section id="the-bit" class="level3" data-number="7.0.1">
+<h3 data-number="7.0.1" class="anchored" data-anchor-id="the-bit"><span class="header-section-number">7.0.1</span> The Bit</h3>
+<p>The fundamental unit of information is the <strong>bit</strong> — the distinction between two equally probable possibilities: <span class="math inline">\(0\)</span> or <span class="math inline">\(1\)</span>, yes or no, heads or tails. Any two-state physical system encodes exactly one bit: a spin-<span class="math inline">\(\frac{1}{2}\)</span> particle, a photon polarization, a transistor switch.</p>
+<p>A system with <span class="math inline">\(n\)</span> bits has <span class="math inline">\(N = 2^n\)</span> distinguishable states. Conversely, a system with <span class="math inline">\(N\)</span> states encodes:</p>
+<p><span class="math display">\[n = \log_2 N \text{ bits}\]</span></p>
+<p>This holds for non-integer values too: a three-state system encodes <span class="math inline">\(\log_2 3 \approx 1.58\)</span> bits.</p>
+<p>A useful approximation: <span class="math inline">\(2^{10} \approx 10^3\)</span>, so every 10 bits multiplies the state space by roughly <span class="math inline">\(10^3\)</span>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(n\)</span> (bits)</th>
+<th><span class="math inline">\(N\)</span> (states)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>1,024</td>
+</tr>
+<tr class="odd">
+<td>300</td>
+<td><span class="math inline">\(\approx 10^{90}\)</span></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>The observable universe contains <span class="math inline">\(\sim 10^{90}\)</span> particles. So <strong>300 bits suffice to label every particle in the universe</strong>. Human DNA, by contrast, encodes <span class="math inline">\(\sim 6 \times 10^9\)</span> bits — far exceeding what is needed for labeling alone.</p>
+</blockquote>
+<hr>
+</section>
+<section id="information-is-physical" class="level3" data-number="7.0.2">
+<h3 data-number="7.0.2" class="anchored" data-anchor-id="information-is-physical"><span class="header-section-number">7.0.2</span> Information is Physical</h3>
+<p>Every bit is realized by a physical system. This has a deep consequence: physical limits constrain how much information any region of space can contain. The maximum information capacity of the observable universe is:</p>
+<p><span class="math display">\[N_{\text{max}} \sim 10^{120} \text{ bits}\]</span></p>
+<p>This follows from quantum mechanics and is finite — large, but bounded.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
