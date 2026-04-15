@@ -2,4 +2,9 @@
 title: "Part 2: Information Theory"
 ---
 
-Information theory provides the mathematical framework for quantifying uncertainty and information.
+## Introduction to Information Theory
+
+> "Information is a difference that makes a difference."
+> — Gregory Bateson
+
+The etymology of the word information comes from _informare_ in latin, meaning - to give form. Let's ponder on how can we measure information using the analogy to energy. Energy is an ancient concept that came from [[Aristotle]], who coined the term Ergon, coming from the Proto-Indo-European root _*werg_ that means "to do", in the sense of to do work. So the important thing about energy is that we can measure it, and that you can measure the amount of energy in heat, or work (the physical concept of work), and many other forms of energy. The [[Bit]] is the unit of information, and it stands for - BInary digiT. The idea is that a bit is a measure of difference, between two possibilities: 0 and 1, True or False, Hot or Cold, etc.

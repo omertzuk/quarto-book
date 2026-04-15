@@ -2,4 +2,32 @@
 title: "The Bit"
 ---
 
-The fundamental unit of information and its role in quantifying uncertainty.
+### The Bit
+
+The fundamental unit of information is the **bit** — the distinction between two equally probable possibilities: $0$ or $1$, yes or no, heads or tails. Any two-state physical system encodes exactly one bit: a spin-$\frac{1}{2}$ particle, a photon polarization, a transistor switch.
+
+A system with $n$ bits has $N = 2^n$ distinguishable states. Conversely, a system with $N$ states encodes:
+
+$$n = \log_2 N \text{ bits}$$
+
+This holds for non-integer values too: a three-state system encodes $\log_2 3 \approx 1.58$ bits.
+
+A useful approximation: $2^{10} \approx 10^3$, so every 10 bits multiplies the state space by roughly $10^3$.
+
+| $n$ (bits) | $N$ (states) |
+|---|---|
+| 1 | 2 |
+| 10 | 1,024 |
+| 300 | $\approx 10^{90}$ |
+
+> The observable universe contains $\sim 10^{90}$ particles. So **300 bits suffice to label every particle in the universe**. Human DNA, by contrast, encodes $\sim 6 \times 10^9$ bits — far exceeding what is needed for labeling alone.
+
+---
+
+### Information is Physical
+
+Every bit is realized by a physical system. This has a deep consequence: physical limits constrain how much information any region of space can contain. The maximum information capacity of the observable universe is:
+
+$$N_{\text{max}} \sim 10^{120} \text{ bits}$$
+
+This follows from quantum mechanics and is finite — large, but bounded.

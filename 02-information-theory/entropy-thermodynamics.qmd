@@ -2,4 +2,36 @@
 title: "Entropy and Thermodynamics"
 ---
 
-The deep connection between information entropy and physical entropy.
+### Entropy
+
+A physical system with $N$ equally probable microstates has **Boltzmann entropy**:
+
+$$S = k_B \log N$$
+
+where $k_B$ is Boltzmann's constant. Comparing with $n = \log_2 N$, entropy is directly proportional to the number of bits needed to specify the microstate — up to a choice of logarithm base and physical units.
+
+$$S = k_B \ln 2 \cdot \log_2 N = k_B \ln 2 \cdot n$$
+
+**Entropy = information needed to fully describe a system's microstate.**
+
+The Second Law — entropy never decreases in an isolated system — is then a statement about information: the number of possible microstates consistent with macroscopic observations can only grow or stay constant.
+
+---
+
+### Shannon Entropy
+
+When microstates are not equally probable, the generalization is **Shannon entropy**:
+
+$$H = -\sum_i p_i \log_2 p_i \quad \text{(bits)}$$
+
+or equivalently in nats (using $\ln$):
+
+$$H = -\sum_i p_i \ln p_i \quad \text{(nats)}$$
+
+$H$ measures the **average uncertainty** about the outcome of a random variable $X \sim \{p_i\}$. Key properties:
+
+- $H \geq 0$, with $H = 0$ only when one outcome has probability 1
+- $H$ is maximized when all outcomes are equally probable: $H_{\max} = \log_2 N$
+- For a fair coin: $H = -\frac{1}{2}\log_2\frac{1}{2} - \frac{1}{2}\log_2\frac{1}{2} = 1$ bit
+
+Shannon entropy reduces to Boltzmann entropy for uniform distributions, confirming they measure the same underlying quantity.

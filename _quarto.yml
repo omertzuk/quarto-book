@@ -54,6 +54,8 @@ book:
         - 06-active-inference/expected-free-energy.qmd
         - 06-active-inference/policy-selection.qmd
     - references.qmd
+  sidebar:
+    collapse-level: 2
   open-graph: true
 
 bibliography: references.bib
