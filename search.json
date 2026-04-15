@@ -10,33 +10,344 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "01-probability/index.html",
+    "href": "01-probability/index.html",
+    "title": "1  Part 1: Probability and Bayesian Inference",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Introduction to probability theory and Bayesian inference, the mathematical foundations of Active Inference.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Part 1: Probability and Bayesian Inference",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Part 1: Probability and Bayesian Inference</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "01-probability/probability-distributions.html",
+    "href": "01-probability/probability-distributions.html",
+    "title": "2  Probability Distributions",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Understanding probability distributions and their role in modeling uncertainty.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "Part 1: Probability and Bayesian Inference",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Probability Distributions</span>"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "01-probability/bayes-theorem.html",
+    "href": "01-probability/bayes-theorem.html",
+    "title": "3  Bayes’ Theorem",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "The fundamental theorem connecting prior beliefs with observations to form posterior beliefs.",
     "crumbs": [
-      "References"
+      "Part 1: Probability and Bayesian Inference",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bayes' Theorem</span>"
+    ]
+  },
+  {
+    "objectID": "01-probability/likelihood-priors.html",
+    "href": "01-probability/likelihood-priors.html",
+    "title": "4  Likelihood and Priors",
+    "section": "",
+    "text": "Understanding the components of Bayesian inference: likelihood functions and prior distributions.",
+    "crumbs": [
+      "Part 1: Probability and Bayesian Inference",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Likelihood and Priors</span>"
+    ]
+  },
+  {
+    "objectID": "01-probability/posterior-updating.html",
+    "href": "01-probability/posterior-updating.html",
+    "title": "5  Posterior Updating",
+    "section": "",
+    "text": "How beliefs are updated in light of new evidence through Bayesian updating.",
+    "crumbs": [
+      "Part 1: Probability and Bayesian Inference",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Posterior Updating</span>"
+    ]
+  },
+  {
+    "objectID": "02-information-theory/index.html",
+    "href": "02-information-theory/index.html",
+    "title": "6  Part 2: Information Theory",
+    "section": "",
+    "text": "Information theory provides the mathematical framework for quantifying uncertainty and information.",
+    "crumbs": [
+      "Part 2: Information Theory",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Part 2: Information Theory</span>"
+    ]
+  },
+  {
+    "objectID": "02-information-theory/the-bit.html",
+    "href": "02-information-theory/the-bit.html",
+    "title": "7  The Bit",
+    "section": "",
+    "text": "The fundamental unit of information and its role in quantifying uncertainty.",
+    "crumbs": [
+      "Part 2: Information Theory",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Bit</span>"
+    ]
+  },
+  {
+    "objectID": "02-information-theory/entropy.html",
+    "href": "02-information-theory/entropy.html",
+    "title": "8  Entropy",
+    "section": "",
+    "text": "Shannon entropy as a measure of uncertainty and information content.",
+    "crumbs": [
+      "Part 2: Information Theory",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Entropy</span>"
+    ]
+  },
+  {
+    "objectID": "02-information-theory/kl-divergence.html",
+    "href": "02-information-theory/kl-divergence.html",
+    "title": "9  KL Divergence",
+    "section": "",
+    "text": "Kullback-Leibler divergence: measuring the difference between probability distributions.",
+    "crumbs": [
+      "Part 2: Information Theory",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>KL Divergence</span>"
+    ]
+  },
+  {
+    "objectID": "02-information-theory/mutual-information.html",
+    "href": "02-information-theory/mutual-information.html",
+    "title": "10  Mutual Information",
+    "section": "",
+    "text": "Quantifying the shared information between variables.",
+    "crumbs": [
+      "Part 2: Information Theory",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Mutual Information</span>"
+    ]
+  },
+  {
+    "objectID": "02-information-theory/entropy-thermodynamics.html",
+    "href": "02-information-theory/entropy-thermodynamics.html",
+    "title": "11  Entropy and Thermodynamics",
+    "section": "",
+    "text": "The deep connection between information entropy and physical entropy.",
+    "crumbs": [
+      "Part 2: Information Theory",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Entropy and Thermodynamics</span>"
+    ]
+  },
+  {
+    "objectID": "03-dynamical-systems/index.html",
+    "href": "03-dynamical-systems/index.html",
+    "title": "12  Part 3: Dynamical Systems and Optimization",
+    "section": "",
+    "text": "Mathematical tools for understanding systems that change over time and methods for finding optimal solutions.",
+    "crumbs": [
+      "Part 3: Dynamical Systems and Optimization",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Part 3: Dynamical Systems and Optimization</span>"
+    ]
+  },
+  {
+    "objectID": "03-dynamical-systems/differential-equations.html",
+    "href": "03-dynamical-systems/differential-equations.html",
+    "title": "13  Differential Equations",
+    "section": "",
+    "text": "Modeling continuous change and dynamics with differential equations.",
+    "crumbs": [
+      "Part 3: Dynamical Systems and Optimization",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Differential Equations</span>"
+    ]
+  },
+  {
+    "objectID": "03-dynamical-systems/fixed-points-attractors.html",
+    "href": "03-dynamical-systems/fixed-points-attractors.html",
+    "title": "14  Fixed Points and Attractors",
+    "section": "",
+    "text": "Understanding equilibrium states and the behavior of dynamical systems.",
+    "crumbs": [
+      "Part 3: Dynamical Systems and Optimization",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Fixed Points and Attractors</span>"
+    ]
+  },
+  {
+    "objectID": "03-dynamical-systems/variational-calculus.html",
+    "href": "03-dynamical-systems/variational-calculus.html",
+    "title": "15  Variational Calculus",
+    "section": "",
+    "text": "Finding functions that minimize or maximize functionals.",
+    "crumbs": [
+      "Part 3: Dynamical Systems and Optimization",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Variational Calculus</span>"
+    ]
+  },
+  {
+    "objectID": "03-dynamical-systems/gradient-descent.html",
+    "href": "03-dynamical-systems/gradient-descent.html",
+    "title": "16  Gradient Descent",
+    "section": "",
+    "text": "Iterative optimization through following the gradient of a function.",
+    "crumbs": [
+      "Part 3: Dynamical Systems and Optimization",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Gradient Descent</span>"
+    ]
+  },
+  {
+    "objectID": "04-generative-models/index.html",
+    "href": "04-generative-models/index.html",
+    "title": "17  Part 4: Generative Models",
+    "section": "",
+    "text": "Probabilistic models that describe how observed data is generated from hidden causes.",
+    "crumbs": [
+      "Part 4: Generative Models",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Part 4: Generative Models</span>"
+    ]
+  },
+  {
+    "objectID": "04-generative-models/what-is-generative-model.html",
+    "href": "04-generative-models/what-is-generative-model.html",
+    "title": "18  What is a Generative Model?",
+    "section": "",
+    "text": "Understanding the concept and purpose of generative models in probabilistic inference.",
+    "crumbs": [
+      "Part 4: Generative Models",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>What is a Generative Model?</span>"
+    ]
+  },
+  {
+    "objectID": "04-generative-models/latent-variables.html",
+    "href": "04-generative-models/latent-variables.html",
+    "title": "19  Latent Variables",
+    "section": "",
+    "text": "Hidden variables that explain observed data and represent unobservable causes.",
+    "crumbs": [
+      "Part 4: Generative Models",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Latent Variables</span>"
+    ]
+  },
+  {
+    "objectID": "04-generative-models/hierarchical-models.html",
+    "href": "04-generative-models/hierarchical-models.html",
+    "title": "20  Hierarchical Models",
+    "section": "",
+    "text": "Multi-level generative models with nested structure and abstraction.",
+    "crumbs": [
+      "Part 4: Generative Models",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Hierarchical Models</span>"
+    ]
+  },
+  {
+    "objectID": "04-generative-models/approximate-inference.html",
+    "href": "04-generative-models/approximate-inference.html",
+    "title": "21  Approximate Inference",
+    "section": "",
+    "text": "Methods for computing posterior distributions when exact inference is intractable.",
+    "crumbs": [
+      "Part 4: Generative Models",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Approximate Inference</span>"
+    ]
+  },
+  {
+    "objectID": "05-free-energy/index.html",
+    "href": "05-free-energy/index.html",
+    "title": "22  Part 5: The Free Energy Principle",
+    "section": "",
+    "text": "A unifying framework for understanding perception, action, and learning in self-organizing systems.",
+    "crumbs": [
+      "Part 5: The Free Energy Principle",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Part 5: The Free Energy Principle</span>"
+    ]
+  },
+  {
+    "objectID": "05-free-energy/surprise-self-organization.html",
+    "href": "05-free-energy/surprise-self-organization.html",
+    "title": "23  Surprise and Self-Organization",
+    "section": "",
+    "text": "How minimizing surprise leads to self-organizing behavior in adaptive systems.",
+    "crumbs": [
+      "Part 5: The Free Energy Principle",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Surprise and Self-Organization</span>"
+    ]
+  },
+  {
+    "objectID": "05-free-energy/variational-free-energy.html",
+    "href": "05-free-energy/variational-free-energy.html",
+    "title": "24  Variational Free Energy",
+    "section": "",
+    "text": "An upper bound on surprise that can be minimized through inference and learning.",
+    "crumbs": [
+      "Part 5: The Free Energy Principle",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Variational Free Energy</span>"
+    ]
+  },
+  {
+    "objectID": "05-free-energy/markov-blanket.html",
+    "href": "05-free-energy/markov-blanket.html",
+    "title": "25  The Markov Blanket",
+    "section": "",
+    "text": "The statistical boundary separating internal states from external states.",
+    "crumbs": [
+      "Part 5: The Free Energy Principle",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>The Markov Blanket</span>"
+    ]
+  },
+  {
+    "objectID": "05-free-energy/connection-bayesian-inference.html",
+    "href": "05-free-energy/connection-bayesian-inference.html",
+    "title": "26  Connection to Bayesian Inference",
+    "section": "",
+    "text": "How the Free Energy Principle relates to Bayesian inference and belief updating.",
+    "crumbs": [
+      "Part 5: The Free Energy Principle",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Connection to Bayesian Inference</span>"
+    ]
+  },
+  {
+    "objectID": "06-active-inference/index.html",
+    "href": "06-active-inference/index.html",
+    "title": "27  Part 6: Active Inference",
+    "section": "",
+    "text": "A theory of action and behavior based on minimizing expected free energy.",
+    "crumbs": [
+      "Part 6: Active Inference",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Part 6: Active Inference</span>"
+    ]
+  },
+  {
+    "objectID": "06-active-inference/perception-as-inference.html",
+    "href": "06-active-inference/perception-as-inference.html",
+    "title": "28  Perception as Inference",
+    "section": "",
+    "text": "Understanding perception as Bayesian inference about the causes of sensory data.",
+    "crumbs": [
+      "Part 6: Active Inference",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Perception as Inference</span>"
+    ]
+  },
+  {
+    "objectID": "06-active-inference/action-as-inference.html",
+    "href": "06-active-inference/action-as-inference.html",
+    "title": "29  Action as Inference",
+    "section": "",
+    "text": "How actions are selected to fulfill predictions and minimize prediction errors.",
+    "crumbs": [
+      "Part 6: Active Inference",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Action as Inference</span>"
+    ]
+  },
+  {
+    "objectID": "06-active-inference/expected-free-energy.html",
+    "href": "06-active-inference/expected-free-energy.html",
+    "title": "30  Expected Free Energy",
+    "section": "",
+    "text": "A measure combining epistemic and pragmatic value for action selection.",
+    "crumbs": [
+      "Part 6: Active Inference",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Expected Free Energy</span>"
+    ]
+  },
+  {
+    "objectID": "06-active-inference/policy-selection.html",
+    "href": "06-active-inference/policy-selection.html",
+    "title": "31  Policy Selection",
+    "section": "",
+    "text": "Choosing sequences of actions that minimize expected free energy.",
+    "crumbs": [
+      "Part 6: Active Inference",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Policy Selection</span>"
     ]
   }
 ]
