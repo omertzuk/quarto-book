@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>11&nbsp; Entropy and Thermodynamics – Learning Active Inference</title>
+<title>8&nbsp; Entropy and Thermodynamics – Learning Active Inference</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../03-dynamical-systems/index.html" rel="next">
-<link href="../02-information-theory/mutual-information.html" rel="prev">
+<link href="../02-information-theory/entropy-and-information.html" rel="next">
+<link href="../02-information-theory/the-bit.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -102,7 +102,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="11&nbsp; Entropy and Thermodynamics – Learning Active Inference">
+<meta property="og:title" content="8&nbsp; Entropy and Thermodynamics – Learning Active Inference">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Learning Active Inference">
 </head>
@@ -116,7 +116,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-information-theory/index.html">Part 2: Information Theory</a></li><li class="breadcrumb-item"><a href="../02-information-theory/entropy-thermodynamics.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-information-theory/index.html">Part 2: Information Theory</a></li><li class="breadcrumb-item"><a href="../02-information-theory/entropy-thermodynamics.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -211,26 +211,26 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-information-theory/entropy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Entropy</span></span></a>
+  <a href="../02-information-theory/entropy-thermodynamics.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-information-theory/entropy-and-information.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Entropy</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../02-information-theory/kl-divergence.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">KL Divergence</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">KL Divergence</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../02-information-theory/mutual-information.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Mutual Information</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../02-information-theory/entropy-thermodynamics.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Mutual Information</span></span></a>
   </div>
 </li>
       </ul>
@@ -415,17 +415,17 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#entropy" id="toc-entropy" class="nav-link active" data-scroll-target="#entropy"><span class="header-section-number">11.0.1</span> Entropy</a></li>
-  <li><a href="#shannon-entropy" id="toc-shannon-entropy" class="nav-link" data-scroll-target="#shannon-entropy"><span class="header-section-number">11.0.2</span> Shannon Entropy</a></li>
+  <li><a href="#entropy" id="toc-entropy" class="nav-link active" data-scroll-target="#entropy"><span class="header-section-number">8.0.1</span> Entropy</a></li>
+  <li><a href="#shannon-entropy" id="toc-shannon-entropy" class="nav-link" data-scroll-target="#shannon-entropy"><span class="header-section-number">8.0.2</span> Shannon Entropy</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-information-theory/index.html">Part 2: Information Theory</a></li><li class="breadcrumb-item"><a href="../02-information-theory/entropy-thermodynamics.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-information-theory/index.html">Part 2: Information Theory</a></li><li class="breadcrumb-item"><a href="../02-information-theory/entropy-thermodynamics.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Entropy and Thermodynamics</span></h1>
 </div>
 
 
@@ -442,8 +442,8 @@ window.Quarto = {
 </header>
 
 
-<section id="entropy" class="level3" data-number="11.0.1">
-<h3 data-number="11.0.1" class="anchored" data-anchor-id="entropy"><span class="header-section-number">11.0.1</span> Entropy</h3>
+<section id="entropy" class="level3" data-number="8.0.1">
+<h3 data-number="8.0.1" class="anchored" data-anchor-id="entropy"><span class="header-section-number">8.0.1</span> Entropy</h3>
 <p>A physical system with <span class="math inline">\(N\)</span> equally probable microstates has <strong>Boltzmann entropy</strong>:</p>
 <p><span class="math display">\[S = k_B \log N\]</span></p>
 <p>where <span class="math inline">\(k_B\)</span> is Boltzmann’s constant. Comparing with <span class="math inline">\(n = \log_2 N\)</span>, entropy is directly proportional to the number of bits needed to specify the microstate — up to a choice of logarithm base and physical units.</p>
@@ -452,8 +452,8 @@ window.Quarto = {
 <p>The Second Law — entropy never decreases in an isolated system — is then a statement about information: the number of possible microstates consistent with macroscopic observations can only grow or stay constant.</p>
 <hr>
 </section>
-<section id="shannon-entropy" class="level3" data-number="11.0.2">
-<h3 data-number="11.0.2" class="anchored" data-anchor-id="shannon-entropy"><span class="header-section-number">11.0.2</span> Shannon Entropy</h3>
+<section id="shannon-entropy" class="level3" data-number="8.0.2">
+<h3 data-number="8.0.2" class="anchored" data-anchor-id="shannon-entropy"><span class="header-section-number">8.0.2</span> Shannon Entropy</h3>
 <p>When microstates are not equally probable, the generalization is <strong>Shannon entropy</strong>:</p>
 <p><span class="math display">\[H = -\sum_i p_i \log_2 p_i \quad \text{(bits)}\]</span></p>
 <p>or equivalently in nats (using <span class="math inline">\(\ln\)</span>):</p>
@@ -872,13 +872,13 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../02-information-theory/mutual-information.html" class="pagination-link" aria-label="Mutual Information">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Mutual Information</span></span>
+      <a href="../02-information-theory/the-bit.html" class="pagination-link" aria-label="The Bit">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Bit</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../03-dynamical-systems/index.html" class="pagination-link" aria-label="Part 3: Dynamical Systems and Optimization">
-        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Part 3: Dynamical Systems and Optimization</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../02-information-theory/entropy-and-information.html" class="pagination-link" aria-label="Entropy">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Entropy</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
