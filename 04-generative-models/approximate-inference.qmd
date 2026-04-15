@@ -1,0 +1,5 @@
+---
+title: "Approximate Inference"
+---
+
+Methods for computing posterior distributions when exact inference is intractable.

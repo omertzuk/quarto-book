@@ -1,0 +1,5 @@
+---
+title: "Action as Inference"
+---
+
+How actions are selected to fulfill predictions and minimize prediction errors.

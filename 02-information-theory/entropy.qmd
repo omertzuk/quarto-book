@@ -1,0 +1,5 @@
+---
+title: "Entropy"
+---
+
+Shannon entropy as a measure of uncertainty and information content.

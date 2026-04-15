@@ -1,0 +1,5 @@
+---
+title: "Fixed Points and Attractors"
+---
+
+Understanding equilibrium states and the behavior of dynamical systems.

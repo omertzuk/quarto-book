@@ -1,0 +1,5 @@
+---
+title: "Variational Free Energy"
+---
+
+An upper bound on surprise that can be minimized through inference and learning.

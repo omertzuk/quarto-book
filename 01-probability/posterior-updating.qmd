@@ -1,0 +1,5 @@
+---
+title: "Posterior Updating"
+---
+
+How beliefs are updated in light of new evidence through Bayesian updating.

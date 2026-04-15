@@ -1,0 +1,5 @@
+---
+title: "Connection to Bayesian Inference"
+---
+
+How the Free Energy Principle relates to Bayesian inference and belief updating.

@@ -1,0 +1,5 @@
+---
+title: "What is a Generative Model?"
+---
+
+Understanding the concept and purpose of generative models in probabilistic inference.

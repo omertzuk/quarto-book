@@ -10,5 +10,98 @@
   },
   "references.qmd": {
     "references.html": "dd1a431c"
+  },
+  "01-probability/index.qmd": {
+    "index.html": "00d22328"
+  },
+  "01-probability/probability-distributions.qmd": {
+    "probability-distributions.html": "47fcac2d"
+  },
+  "01-probability/bayes-theorem.qmd": {
+    "bayes-theorem.html": "ef3e3e77"
+  },
+  "01-probability/likelihood-priors.qmd": {
+    "likelihood-priors.html": "79f36971"
+  },
+  "01-probability/posterior-updating.qmd": {
+    "posterior-updating.html": "737eade2"
+  },
+  "02-information-theory/index.qmd": {
+    "index.html": "52ebb44e"
+  },
+  "02-information-theory/the-bit.qmd": {
+    "the-bit.html": "d9eeaecd"
+  },
+  "02-information-theory/entropy.qmd": {
+    "entropy.html": "b525d47a"
+  },
+  "02-information-theory/kl-divergence.qmd": {
+    "kl-divergence.html": "3c0e0fd5"
+  },
+  "02-information-theory/mutual-information.qmd": {
+    "mutual-information.html": "ac6c8f28"
+  },
+  "02-information-theory/entropy-thermodynamics.qmd": {
+    "entropy-thermodynamics.html": "d3e17ea7"
+  },
+  "03-dynamical-systems/index.qmd": {
+    "index.html": "2d64701e"
+  },
+  "03-dynamical-systems/differential-equations.qmd": {
+    "differential-equations.html": "910753dd"
+  },
+  "03-dynamical-systems/fixed-points-attractors.qmd": {
+    "fixed-points-attractors.html": "d48cdca7"
+  },
+  "03-dynamical-systems/variational-calculus.qmd": {
+    "variational-calculus.html": "bb51efb2"
+  },
+  "03-dynamical-systems/gradient-descent.qmd": {
+    "gradient-descent.html": "6152da71"
+  },
+  "04-generative-models/index.qmd": {
+    "index.html": "869f55ee"
+  },
+  "04-generative-models/what-is-generative-model.qmd": {
+    "what-is-generative-model.html": "f8113c00"
+  },
+  "04-generative-models/latent-variables.qmd": {
+    "latent-variables.html": "3b49a081"
+  },
+  "04-generative-models/hierarchical-models.qmd": {
+    "hierarchical-models.html": "1c8286ad"
+  },
+  "04-generative-models/approximate-inference.qmd": {
+    "approximate-inference.html": "7353865e"
+  },
+  "05-free-energy/index.qmd": {
+    "index.html": "265461e7"
+  },
+  "05-free-energy/surprise-self-organization.qmd": {
+    "surprise-self-organization.html": "3df92f8b"
+  },
+  "05-free-energy/variational-free-energy.qmd": {
+    "variational-free-energy.html": "48b766d7"
+  },
+  "05-free-energy/markov-blanket.qmd": {
+    "markov-blanket.html": "78d256f1"
+  },
+  "05-free-energy/connection-bayesian-inference.qmd": {
+    "connection-bayesian-inference.html": "1af2f961"
+  },
+  "06-active-inference/index.qmd": {
+    "index.html": "5a48036e"
+  },
+  "06-active-inference/perception-as-inference.qmd": {
+    "perception-as-inference.html": "8a3341cb"
+  },
+  "06-active-inference/action-as-inference.qmd": {
+    "action-as-inference.html": "eb3350e4"
+  },
+  "06-active-inference/expected-free-energy.qmd": {
+    "expected-free-energy.html": "716f57d3"
+  },
+  "06-active-inference/policy-selection.qmd": {
+    "policy-selection.html": "21ba0891"
   }
 }

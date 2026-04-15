@@ -1,0 +1,5 @@
+---
+title: "Surprise and Self-Organization"
+---
+
+How minimizing surprise leads to self-organizing behavior in adaptive systems.

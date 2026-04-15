@@ -1,0 +1,5 @@
+---
+title: "Gradient Descent"
+---
+
+Iterative optimization through following the gradient of a function.

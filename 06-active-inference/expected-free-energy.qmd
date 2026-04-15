@@ -1,0 +1,5 @@
+---
+title: "Expected Free Energy"
+---
+
+A measure combining epistemic and pragmatic value for action selection.

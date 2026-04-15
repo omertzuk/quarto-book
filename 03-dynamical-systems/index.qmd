@@ -1,0 +1,5 @@
+---
+title: "Part 3: Dynamical Systems and Optimization"
+---
+
+Mathematical tools for understanding systems that change over time and methods for finding optimal solutions.

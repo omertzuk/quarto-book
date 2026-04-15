@@ -1,0 +1,5 @@
+---
+title: "Latent Variables"
+---
+
+Hidden variables that explain observed data and represent unobservable causes.

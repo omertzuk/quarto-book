@@ -1,0 +1,5 @@
+---
+title: "Probability Distributions"
+---
+
+Understanding probability distributions and their role in modeling uncertainty.

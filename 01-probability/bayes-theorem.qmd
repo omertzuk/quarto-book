@@ -1,0 +1,5 @@
+---
+title: "Bayes' Theorem"
+---
+
+The fundamental theorem connecting prior beliefs with observations to form posterior beliefs.

@@ -1,0 +1,5 @@
+---
+title: "Part 5: The Free Energy Principle"
+---
+
+A unifying framework for understanding perception, action, and learning in self-organizing systems.

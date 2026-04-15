@@ -1,0 +1,5 @@
+---
+title: "Policy Selection"
+---
+
+Choosing sequences of actions that minimize expected free energy.

@@ -1,0 +1,5 @@
+---
+title: "Part 4: Generative Models"
+---
+
+Probabilistic models that describe how observed data is generated from hidden causes.

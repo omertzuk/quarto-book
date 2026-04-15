@@ -1,0 +1,5 @@
+---
+title: "The Bit"
+---
+
+The fundamental unit of information and its role in quantifying uncertainty.

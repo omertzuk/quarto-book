@@ -1,0 +1,5 @@
+---
+title: "Part 1: Probability and Bayesian Inference"
+---
+
+Introduction to probability theory and Bayesian inference, the mathematical foundations of Active Inference.

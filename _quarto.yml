@@ -3,22 +3,66 @@ project:
   output-dir: docs
 
 book:
-  title: "Digital Garden"
-  author: "Norah Jones"
+  title: "Learning Active Inference"
+  author: "Omer Tzuk"
   date: "4/14/2026"
+  site-url: https://omertzuk.github.io/quarto-book/
+  page-footer: "This website is built with ❤️ and Quarto, by Omer Tzuk. License: CC BY-SA 4.0."
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: "Part 1: Probability and Bayesian Inference"
+      chapters:
+        - 01-probability/index.qmd
+        - 01-probability/probability-distributions.qmd
+        - 01-probability/bayes-theorem.qmd
+        - 01-probability/likelihood-priors.qmd
+        - 01-probability/posterior-updating.qmd
+    - part: "Part 2: Information Theory"
+      chapters:
+        - 02-information-theory/index.qmd
+        - 02-information-theory/the-bit.qmd
+        - 02-information-theory/entropy.qmd
+        - 02-information-theory/kl-divergence.qmd
+        - 02-information-theory/mutual-information.qmd
+        - 02-information-theory/entropy-thermodynamics.qmd
+    - part: "Part 3: Dynamical Systems and Optimization"
+      chapters:
+        - 03-dynamical-systems/index.qmd
+        - 03-dynamical-systems/differential-equations.qmd
+        - 03-dynamical-systems/fixed-points-attractors.qmd
+        - 03-dynamical-systems/variational-calculus.qmd
+        - 03-dynamical-systems/gradient-descent.qmd
+    - part: "Part 4: Generative Models"
+      chapters:
+        - 04-generative-models/index.qmd
+        - 04-generative-models/what-is-generative-model.qmd
+        - 04-generative-models/latent-variables.qmd
+        - 04-generative-models/hierarchical-models.qmd
+        - 04-generative-models/approximate-inference.qmd
+    - part: "Part 5: The Free Energy Principle"
+      chapters:
+        - 05-free-energy/index.qmd
+        - 05-free-energy/surprise-self-organization.qmd
+        - 05-free-energy/variational-free-energy.qmd
+        - 05-free-energy/markov-blanket.qmd
+        - 05-free-energy/connection-bayesian-inference.qmd
+    - part: "Part 6: Active Inference"
+      chapters:
+        - 06-active-inference/index.qmd
+        - 06-active-inference/perception-as-inference.qmd
+        - 06-active-inference/action-as-inference.qmd
+        - 06-active-inference/expected-free-energy.qmd
+        - 06-active-inference/policy-selection.qmd
     - references.qmd
+  open-graph: true
 
 bibliography: references.bib
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: simplex
+    css: styles.css
+    from: markdown+emoji
 
 
 

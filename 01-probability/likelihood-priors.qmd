@@ -1,0 +1,5 @@
+---
+title: "Likelihood and Priors"
+---
+
+Understanding the components of Bayesian inference: likelihood functions and prior distributions.

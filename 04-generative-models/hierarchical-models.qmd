@@ -1,0 +1,5 @@
+---
+title: "Hierarchical Models"
+---
+
+Multi-level generative models with nested structure and abstraction.

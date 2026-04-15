@@ -1,0 +1,5 @@
+---
+title: "Perception as Inference"
+---
+
+Understanding perception as Bayesian inference about the causes of sensory data.

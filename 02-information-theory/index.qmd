@@ -1,0 +1,5 @@
+---
+title: "Part 2: Information Theory"
+---
+
+Information theory provides the mathematical framework for quantifying uncertainty and information.

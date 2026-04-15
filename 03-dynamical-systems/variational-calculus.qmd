@@ -1,0 +1,5 @@
+---
+title: "Variational Calculus"
+---
+
+Finding functions that minimize or maximize functionals.

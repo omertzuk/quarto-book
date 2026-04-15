@@ -1,0 +1,5 @@
+---
+title: "Part 6: Active Inference"
+---
+
+A theory of action and behavior based on minimizing expected free energy.
